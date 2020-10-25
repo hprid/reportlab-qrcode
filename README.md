@@ -10,7 +10,7 @@ Installation
 
 reportlab-qrcode can be installed via pip:
 
-   pip install reportlab-qrcode
+    pip install reportlab-qrcode
 
 
 Usage
@@ -19,14 +19,14 @@ Usage
 Simply use the *QRCodeImage* class with your data. All non-recognized keyword
 arguments will be passed to the *qrcode.QRCode* class from the qrcode package.
 
-   from reportlab.pdfgen.canvas import Canvas
-   from reportlab\_qrcode import QRCodeImage
+    from reportlab.pdfgen.canvas import Canvas
+    from reportlab_qrcode import QRCodeImage
 
-   doc = Canvas('simple.pdf')
-   qr = QRCodeImage('Some data here')
-   qr.drawOn(doc, 0, 0)
-   doc.showPage()
-   doc.save()
+    doc = Canvas('simple.pdf')
+    qr = QRCodeImage('Some data here')
+    qr.drawOn(doc, 0, 0)
+    doc.showPage()
+    doc.save()
 
 For further examples, including setting fill and back colors, QR code size,
 error correction level, as well as using the QR code as ReportLab Flowable
