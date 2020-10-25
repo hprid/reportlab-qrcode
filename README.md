@@ -30,7 +30,7 @@ arguments will be passed to the *qrcode.QRCode* class from the qrcode package.
 
 For further examples, including setting fill and back colors, QR code size,
 error correction level, as well as using the QR code as ReportLab Flowable
-object, see the *examples* directory.
+object, see the [examples directory](https://github.com/hprid/reportlab-qrcode/tree/master/examples).
 
 
 Maintenance note
