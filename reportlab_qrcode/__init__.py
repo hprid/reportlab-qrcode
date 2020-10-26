@@ -4,8 +4,8 @@ from reportlab.platypus import Flowable
 
 
 class QRCodeImage(Flowable):
-    def __init__(self, data=None, size=25 * mm, fill_color='blue',
-                 back_color='yellow', border=4, **kwargs):
+    def __init__(self, data=None, size=25 * mm, fill_color='black',
+                 back_color='white', border=4, **kwargs):
         Flowable.__init__(self)
         self.x = 0
         self.y = 0
