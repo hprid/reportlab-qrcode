@@ -12,7 +12,7 @@ class QRCodeImage(Flowable):
         self.width = size
         self.height = size
         self.size = size
-        self.border = 4
+        self.border = border
         self.fill_color = fill_color
         self.back_color = back_color
         kwargs['box_size'] = 1
