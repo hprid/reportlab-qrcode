@@ -43,7 +43,7 @@ class QRCodeImage(Flowable):
         for row, col in active_positions:
             xr = (col + self.border) * box_size
             yr = (row + self.border) * box_size
-            xr, yr = yr, -xr
+            yr = -yr
             yr += self.size - box_size
             self.canv.rect(xr + self.x, yr + self.y, box_size, box_size, stroke=0, fill=1)
         self.canv.restoreState()
